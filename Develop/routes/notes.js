@@ -39,7 +39,7 @@ notes.post('/', (req, res) => {
     });
 });
 
-//https://www.tabnine.com/code/javascript/functions/express/Express/delete to learn how to add the delete function below tied in with coding above
+//https://www.tabnine.com/code/javascript/functions/express/Express/delete and https://expressjs.com/en/4x/api.html#app to learn how to add the delete function below tied in with coding above
 
 notes.delete('/:id', (req, res) => {
     const note_id = req.params.id;
